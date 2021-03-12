@@ -1,0 +1,9 @@
+.DS_Store
+plugins
+node_modules
+.env
+template
+client/build
+server/build
+packafe-lock.json
+server/src/config/config.json

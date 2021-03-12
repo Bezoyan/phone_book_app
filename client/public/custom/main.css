@@ -1,0 +1,103 @@
+header {
+  background-color: #ebe7e7;
+  margin:0;
+}
+
+.dashboard {
+  background-color: #ebe7e7;
+  min-height: 131px;
+  padding: 50px 10px;
+}
+
+main {
+  border: 1px solid #ebe7e7;
+  min-height: 450px;
+}
+
+footer {
+  background-color: #ebe7e7;
+  min-height: 131px;
+  padding: 50px;
+}
+
+.app-title {
+  color: #06418e;
+  margin-bottom: -10px;
+  padding-top: 20px;
+}
+
+.group-tile {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.group-tile {
+  padding-bottom: 20px;
+}
+
+.stats { text-align: center }
+
+.contact-card{
+  border: 1px solid #06418e;
+  box-sizing: border-box;
+  height: 200px;
+  margin-bottom: 15px;
+  padding: 10px;
+ }
+
+.contact-action { float: right }
+.contact-action i.fa-edit{
+  background-color: #ffa500;
+  border-radius: 50%;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+}
+.contact-action i.fa-edit:hover {
+  background-color: #805505;
+  cursor: pointer;
+}
+.contact-action i.fa-trash{
+  background-color: red;
+  border-radius: 50%;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+}
+.contact-action i.fa-trash:hover {
+  background-color: #8a0202;
+  cursor: pointer;
+}
+
+.contact-wrapper {
+  min-height: 400px;
+}
+
+.group-card {
+  border: 1px solid #999;
+}
+
+/* Tweaks */
+.btn-outline-primary {
+  background-color: white;
+  background-image: none;
+  border-color: #ffffff;
+  color: #1b66b7;
+}
+
+.badge.badge-default {
+  border: 1px solid gray;
+  border-color: gray !important;
+}
+
+@media screen and (max-width: 480px) {
+  .btn-outline-primary { margin-bottom: 20px }
+}
+
+@media screen and (max-width: 480px) {
+  .col-xs-12 { margin-bottom: 20px }
+}
+
+@media screen and (max-width: 748px) {
+  .col-sm-6 { margin-bottom: 20px }
+}

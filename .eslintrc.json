@@ -1,0 +1,21 @@
+{   "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+    "extends": "airbnb",
+    "rules": {
+      "comma-dangle": "off",
+      "arrow-parens": "off",
+      "object-curly-newline": "off",
+      "arrow-body-style": "off",
+      "import/no-extraneous-dependencies": "off"
+    },
+    "globals": {
+      "window": true,
+      "document": true,
+      "$": true
+    }
+}
